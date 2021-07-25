@@ -7,6 +7,7 @@
 # Attention, les chaînes sont lues dans l'ordre, soyez prudent sur les modifications apportée par une chaîne précédente.
 # Les occurences les plus courtes doivent être à la fin
 
+# Écriture inclusive en "français".
 chaine_a_nettoyer="
 # auteur\/autrice
 # auteur/autrice
@@ -113,4 +114,11 @@ qu\'il·elle·squ\'illle·s
 # administrateur·ices
 >s?·ices<::>s<
 >·ice<::><
+"
+
+# Écriture inclusive en "anglais".
+chaine_a_nettoyer="
+$chaine_a_nettoyer
+# h·er·is -> modifié par >·e<::>< en hr·is
+>hr·is<::>his<
 "
