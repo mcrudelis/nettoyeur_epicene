@@ -7,6 +7,9 @@
 # Attention, les chaînes sont lues dans l'ordre, soyez prudent sur les modifications apportée par une chaîne précédente.
 # Les occurences les plus courtes doivent être à la fin
 
+# Attention, il existe plusieurs points médians... Même au fond, on peut encore creuser...
+# Toujours utiliser [·⋅•] pour tous les considérer.
+
 # Écriture inclusive en "français".
 chaine_a_nettoyer="
 # auteur\/autrice
@@ -88,12 +91,12 @@ chaine_a_nettoyer="
 >\\\\\\\\/abonnées?<::><
 >/abonnées?<::><
 
-nouveaux·elles
-nouveau·elle
-ceux·elles
-qu\'il·elle·squ\'illle·s
->·elle·s<::>s<
->·elles?<::><
+# nouveaux·elles
+# nouveau·elle
+# ceux·elles
+# qu\'il·elle·s
+>[·⋅•]elle[·⋅•]s<::>s<
+>[·⋅•]elles?<::><
 
 # connecté·e
 # déconnecté·e
@@ -101,24 +104,28 @@ qu\'il·elle·squ\'illle·s
 # reconnecté·e
 # invité·e
 # rencontré·e
->é·e·s<::>és<
->é·e<::>é<
+>é[·⋅•]e[·⋅•]s<::>és<
+>é[·⋅•]e<::>é<
 # certain·e
 # prêt·e
 # petit·e ami·e
->·e·s<::>s<
->·e<::><
+>[·⋅•]e[·⋅•]s<::>s<
+>[·⋅•]e<::><
 
 # administrateur·ice
 # utilisateur·ice
 # administrateur·ices
->s?·ices<::>s<
->·ice<::><
+>s?[·⋅•]rices<::>s<
+>[·⋅•]rice[·⋅•]s<::>s<
+>[·⋅•]rice<::><
+>s?[·⋅•]ices<::>s<
+>[·⋅•]ice[·⋅•]s<::>s<
+>[·⋅•]ice<::><
 "
 
 # Écriture inclusive en "anglais".
 chaine_a_nettoyer="
 $chaine_a_nettoyer
 # h·er·is -> modifié par >·e<::>< en hr·is
->hr·is<::>his<
+>hr[·⋅•]is<::>his<
 "
