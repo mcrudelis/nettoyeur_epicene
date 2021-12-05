@@ -121,6 +121,9 @@ chaine_a_nettoyer="
 >s?[·⋅•]ices<::>s<
 >[·⋅•]ice[·⋅•]s<::>s<
 >[·⋅•]ice<::><
+
+# Tou·te·s
+>ou[·⋅•]te[·⋅•]s<::>ous<
 "
 
 # Écriture inclusive en "anglais".
